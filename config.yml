@@ -1,0 +1,41 @@
+baseURL: "https://examplesite.com/"
+title: Vo Loc Anh
+paginate: 5
+theme: PaperMod
+
+
+menu:
+  main:
+    - identifier: tag
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives
+      weight: 30
+params:
+    profileMode:
+        enabled: true
+        title: "Vo Loc Anh" # optional default will be site title
+        subtitle: "Hi there 👋, Welcome to my blog!" # optional default will be site description
+        imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg" # optional
+        imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Blog
+              url: "/archives"
+            - name: About
+              url: "/about"
+    socialIcons: # optional
+        - name: "instagram"
+          url: "https://www.instagram.com/anhgooner2/"
+        - name: "github"
+          url: "https://github.com/anhuet"
+        - name: "facebook"
+          url: "https://www.facebook.com/anh.gooner2/"
